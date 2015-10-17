@@ -19,7 +19,7 @@ gemspec
 cobra_gems
 ```
 
-`Cobra.gem_locations` will look up all the gems from the gemspec in the root Gemfile and if they use path, git, or svn to define the gems location then it will redefine them again.
+`cobra_gems` will look up all the gems from the gemspec in the root Gemfile and if they use path, git, or svn to define the gems location then it will redefine them again.
 
 ## Maintaining exact version numbers
 
